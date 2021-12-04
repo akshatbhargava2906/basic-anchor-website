@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery</title>
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+
+        h3{
+          margin-bottom: 150px;
+        }
+
+        h1, h3{
+        text-align: center;
+        color: black;
+        padding: 20px 20px;
+        font-weight: bold;
+        }
+
+        body{
+        background-image: url('../images/jewel.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            align-content: center;
+        }
+
+        .row-cus{
+            padding: 50px;
+            margin: 2px;
+        }
+
+        .row-full{
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        height: 100px;
+        margin-top: 100px;
+        left: 50%;
+      }
+
+      .button{
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button{
+        background-color: white; 
+        color: black; 
+        border: 2px solid yellow;
+      }
+
+      .button:hover {
+        background-color: yellow;
+        color: black;
+      }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Brands Available</h1>
+    <h3>Click on Brands to know more</h3>
+    <div class="container" style="width: 100%; margin: 0 auto; margin-right: 100px;">
+        <div class="row align-items-center justify-content-center row-cus">
+          <div class="col-xl">
+            <a href="https://www.tanishq.co.in/">
+                <img src="../images/jewellery/tanishq.png" alt="tanishq">
+            </a>
+          </div>
+          <div class="col-xl">
+            <a href="https://www.caratlane.com/">
+                <img src="../images/jewellery/caratlane.png" alt="caratlane">
+            </a>
+          </div>
+          <div class="col-xl">
+            <a href="https://www.bluestone.com/">
+                <img src="../images/jewellery/bluestone.png" alt="bluestone">
+            </a>
+          </div>
+          <div class="col-xl">
+            <a href="https://www.voylla.com/">
+                <img src="../images/jewellery/voylla.png" alt="voylla">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="width: 750px; margin: 0 auto;">
+        <div class="row row-full">
+          <div class="col-sm">
+              <a href="footwear.html">
+                <button class="button" type="button">
+                  Footwear
+                </button>
+              </a>
+          </div>
+          <div class="col-sm">
+              <a href="clothes.html">
+                <button class="button" type="button">
+                  Clothing
+                </button>
+              </a>
+          </div>
+          <div class="col-sm">
+              <a href="accessories.html">
+                <button class="button" type="button">
+                  Accessories
+                </button>
+              </a>
+          </div>
+          <div class="col-sm">
+            <a href="../index.html">
+              <button class="button" type="button">
+                Home
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
